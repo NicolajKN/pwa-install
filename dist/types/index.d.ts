@@ -18,6 +18,7 @@ export declare class PWAInstallElement extends LitElement {
     disableFallback: boolean;
     useLocalStorage: boolean;
     styles: Record<string, string>;
+    locale: string;
     static get styles(): CSSStyleSheet[];
     externalPromptEvent: BeforeInstallPromptEvent | null;
     platforms: BeforeInstallPromptEvent['platforms'];

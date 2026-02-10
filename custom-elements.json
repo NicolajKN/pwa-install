@@ -157,6 +157,15 @@
             },
             {
               "kind": "field",
+              "name": "locale",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "attribute": "locale"
+            },
+            {
+              "kind": "field",
               "name": "externalPromptEvent",
               "type": {
                 "text": "BeforeInstallPromptEvent | null"
@@ -462,6 +471,14 @@
               },
               "default": "{}",
               "fieldName": "styles"
+            },
+            {
+              "name": "locale",
+              "type": {
+                "text": "string"
+              },
+              "default": "''",
+              "fieldName": "locale"
             }
           ],
           "superclass": {

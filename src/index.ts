@@ -46,6 +46,7 @@ export class PWAInstallElement extends LitElement {
 	@property({attribute: 'disable-android-fallback', type: Boolean}) disableFallback = false;
 	@property({attribute: 'use-local-storage', type: Boolean}) useLocalStorage = false;
 	@property({attribute: 'styles', type: Object}) styles: Record<string, string> = {};
+	@property({attribute: 'locale', type: Object}) locale = '';
 
 	static get styles() {
 		return [ styles, stylesCommon, stylesApple ];
@@ -282,7 +283,7 @@ export class PWAInstallElement extends LitElement {
 	}
 
 	async connectedCallback() {
-		await changeLocale(navigator.language);
+		await changeLocale(this.locale === '' ? navigator.language : this.locale);
 		this._isRTL = isRTL();
 		await this._init();
 		PWAGalleryElement.finalized;
