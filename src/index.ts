@@ -46,7 +46,7 @@ export class PWAInstallElement extends LitElement {
 	@property({attribute: 'disable-android-fallback', type: Boolean}) disableFallback = false;
 	@property({attribute: 'use-local-storage', type: Boolean}) useLocalStorage = false;
 	@property({attribute: 'styles', type: Object}) styles: Record<string, string> = {};
-	@property({attribute: 'locale', type: Object}) locale = '';
+	@property({attribute: 'locale', type: String}) locale = '';
 
 	static get styles() {
 		return [ styles, stylesCommon, stylesApple ];
