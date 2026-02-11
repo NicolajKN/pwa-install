@@ -283,9 +283,9 @@ export class PWAInstallElement extends LitElement {
 	}
 
 	async connectedCallback() {
+		await this._init();
 		await changeLocale(this.locale === '' ? navigator.language : this.locale);
 		this._isRTL = isRTL();
-		await this._init();
 		PWAGalleryElement.finalized;
 		PWABottomSheetElement.finalized;
 		super.connectedCallback();

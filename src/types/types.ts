@@ -23,6 +23,7 @@ export interface PWAInstallAttributes {
     name?: string;
     description?: string;
     icon?: string;
+    locale?: string;
 }
 
 export interface ManifestScreenshot extends ImageResource {
