@@ -1,5 +1,6 @@
 [![Published on NPM](https://img.shields.io/npm/v/@khmyznikov/pwa-install.svg)](https://www.npmjs.com/package/@khmyznikov/pwa-install)
 [![npm](https://img.shields.io/npm/dt/@khmyznikov/pwa-install)](https://www.npmjs.com/package/@khmyznikov/pwa-install)
+
 ## \<pwa-install\>
 
 **New to PWAs? Unsure how to create a Web App? Check out these resources for a quick start: [PWA Intro](https://docs.pwabuilder.com/#/home/pwa-intro), [PWA Starter](https://docs.pwabuilder.com/#/starter/quick-start), [PWA Builder](https://www.pwabuilder.com/)**
@@ -9,40 +10,38 @@ Installation dialog for Progressive Web Application (PWA) and Add to Home Screen
 ✨ **Now with iOS/iPadOS/MacOS 26+ support** for native look and feel!
 
 Use it as [Web Component with any **modern** framework](https://custom-elements-everywhere.com/). No polyfill is required.
+
 - [React <= 18 sample](https://stackblitz.com/edit/vite-react-ts-2eeiak?file=src%2FApp.tsx)
 - [React 19+ sample](https://stackblitz.com/edit/react-19-web-components-shoelace-8rdjcfbb?file=src%2FApp.jsx)
-- [Next.js 15 + React 19 sample](https://stackblitz.com/edit/github-xrnbtug5?file=src%2Fapp%2F(delete-this-and-modify-page.tsx)%2FPWAInstall.tsx)
+- [Next.js 15 + React 19 sample](<https://stackblitz.com/edit/github-xrnbtug5?file=src%2Fapp%2F(delete-this-and-modify-page.tsx)%2FPWAInstall.tsx>)
 - [Angular sample](https://stackblitz.com/edit/aozf92?file=package.json,src%2Fapp%2Fpwa-install%2Fpwa-install.component.html,src%2Fapp%2Fpwa-install%2Fpwa-install.component.ts)
 - [Svelte](https://stackblitz.com/edit/svelte-tab-2-sng9wa?file=src%2Froutes%2F%2Bpage.svelte)
-  
+
 ⚡Should work with any other modern framework or just vanila js as web component.
 
 ## **[Demo](https://khmyznikov.com/pwa-install/)**
 
 ## Gallery
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iOS default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Install instruction | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
-|-|-|-|
-|![iOS example default](https://github.com/user-attachments/assets/933a9669-2b1a-49e1-ad49-b4d8657bee8c)|![iOS example install instruction](https://github.com/user-attachments/assets/7f7bf553-8c7e-4840-a261-28b07534ca07)|![iOS example gallery](https://github.com/user-attachments/assets/be709716-bcc4-457c-a271-4e6696032f57)|
 
-| MacOS 14-26+ (Tahoe) |
-|---|
-|![macos_default](https://github.com/user-attachments/assets/c868fa2a-283e-4dcb-b6c5-b2bacdc1749e)|
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;iOS default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     | Install instruction                                                                                                 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;App gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| ![iOS example default](https://github.com/user-attachments/assets/933a9669-2b1a-49e1-ad49-b4d8657bee8c) | ![iOS example install instruction](https://github.com/user-attachments/assets/7f7bf553-8c7e-4840-a261-28b07534ca07) | ![iOS example gallery](https://github.com/user-attachments/assets/be709716-bcc4-457c-a271-4e6696032f57) |
 
+| MacOS 14-26+ (Tahoe)                                                                              |
+| ------------------------------------------------------------------------------------------------- |
+| ![macos_default](https://github.com/user-attachments/assets/c868fa2a-283e-4dcb-b6c5-b2bacdc1749e) |
 
+| &nbsp;&nbsp;&nbsp;&nbsp;iPadOS&nbsp;&nbsp;&nbsp;&nbsp;                                                     | Instruction                                                                                                    |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| ![iPadOS example default](https://github.com/user-attachments/assets/a9b94313-7a88-4042-88c4-be7cc585e236) | ![iPadOS install instruction](https://github.com/user-attachments/assets/0f62be23-ba2a-4bf9-b979-058487ccc238) |
 
-| &nbsp;&nbsp;&nbsp;&nbsp;iPadOS&nbsp;&nbsp;&nbsp;&nbsp; | Instruction |
-|---|---|
-|![iPadOS example default](https://github.com/user-attachments/assets/a9b94313-7a88-4042-88c4-be7cc585e236)|![iPadOS install instruction](https://github.com/user-attachments/assets/0f62be23-ba2a-4bf9-b979-058487ccc238)
+| Android                                                                                                     | Firefox/ Opera/ Others                                                                                       | &nbsp;&nbsp;App gallery&nbsp;&nbsp;                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| ![Android example default](https://github.com/user-attachments/assets/cd973d85-a7e7-4699-84c3-dc7c54aac146) | ![Firefox Opera and others](https://github.com/user-attachments/assets/dc238509-96f6-4a8e-a8ba-7df0997a2c16) | ![Android gallery](https://github.com/user-attachments/assets/98ac4107-c55b-464a-9881-bbc51721ac6d) |
 
-
-
-| Android | Firefox/ Opera/ Others | &nbsp;&nbsp;App gallery&nbsp;&nbsp; |
-|-|-|-|
-|![Android example default](https://github.com/user-attachments/assets/cd973d85-a7e7-4699-84c3-dc7c54aac146)|![Firefox Opera and others](https://github.com/user-attachments/assets/dc238509-96f6-4a8e-a8ba-7df0997a2c16)|![Android gallery](https://github.com/user-attachments/assets/98ac4107-c55b-464a-9881-bbc51721ac6d)|
-
-| Chrome&nbsp; | App Gallery&nbsp;&nbsp; |
-|---|---|
-|![Chrome example default](https://github.com/user-attachments/assets/7406b3ff-4282-4a07-a3c1-e78f8949c00b)|![Chrome example gallery](https://github.com/user-attachments/assets/7c9722f1-0435-4901-ba21-d7e54b228022)|
+| Chrome&nbsp;                                                                                               | App Gallery&nbsp;&nbsp;                                                                                    |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| ![Chrome example default](https://github.com/user-attachments/assets/7406b3ff-4282-4a07-a3c1-e78f8949c00b) | ![Chrome example gallery](https://github.com/user-attachments/assets/7c9722f1-0435-4901-ba21-d7e54b228022) |
 
 <br>
 
@@ -54,14 +53,14 @@ npm i @khmyznikov/pwa-install
 
 Alternatively, you can use [unpkg](https://unpkg.com) or [esm.sh](https://esm.sh).
 
-
 ## Import
 
 ```js
-import '@khmyznikov/pwa-install';
+import "@khmyznikov/pwa-install";
 ```
 
 ## TS Config
+
 ```json
 "compilerOptions": {
   "moduleResolution": "Bundler",
@@ -74,15 +73,17 @@ import '@khmyznikov/pwa-install';
 ```html
 <pwa-install></pwa-install>
 ```
+
 - [React <= 18 polyfill](https://stackblitz.com/edit/vite-react-ts-2eeiak?file=src%2FApp.tsx)
 - [React 19+ sample](https://stackblitz.com/edit/react-19-web-components-shoelace-8rdjcfbb?file=src%2FApp.jsx)
-- [Next.js 15 + React 19 sample](https://stackblitz.com/edit/github-xrnbtug5?file=src%2Fapp%2F(delete-this-and-modify-page.tsx)%2FPWAInstall.tsx)
+- [Next.js 15 + React 19 sample](<https://stackblitz.com/edit/github-xrnbtug5?file=src%2Fapp%2F(delete-this-and-modify-page.tsx)%2FPWAInstall.tsx>)
 
 ### **[Demo](https://khmyznikov.com/pwa-install/)**
 
 <br>
 
 ## Supported params
+
 ```html
 <pwa-install
   manual-apple
@@ -90,20 +91,18 @@ import '@khmyznikov/pwa-install';
   disable-chrome
   disable-close
   use-local-storage
-
   install-description="Custom call to install text"
   disable-install-description
   disable-screenshots
   disable-screenshots-apple
   disable-screenshots-chrome
   manual-how-to
-
   disable-android-fallback
-
   manifest-url="/manifest.json"
   name="PWA"
-  description="Progressive web application"         
-  icon="/icon.png">
+  description="Progressive web application"
+  icon="/icon.png"
+>
 </pwa-install>
 <!-- 
   manual-apple/chrome params means you want to show the Dialog manually by showDialog().
@@ -113,11 +112,13 @@ import '@khmyznikov/pwa-install';
   manual-how-to shows the instructions right away, disabling screenshots (Apple only)
 --->
 ```
-*Make a good manifest file and don't use name/descr/icon params. Boolean attributes needs to be removed to act like "false"*
+
+_Make a good manifest file and don't use name/descr/icon params. Boolean attributes needs to be removed to act like "false"_
 
 ## Custom Styles
 
-*Only the Apple template supports styling, and only the tint color option is available as of today. More to come.*
+_Only the Apple template supports styling, and only the tint color option is available as of today. More to come._
+
 ```html
 <!-- As attribute (JSON string) -->
 <pwa-install styles='{"--tint-color": "#6366f1"}'></pwa-install>
@@ -125,16 +126,20 @@ import '@khmyznikov/pwa-install';
 
 ```javascript
 // As property (object)
-const pwaInstall = document.querySelector('pwa-install');
-pwaInstall.styles = { '--tint-color': '#6366f1' };
+const pwaInstall = document.querySelector("pwa-install");
+pwaInstall.styles = { "--tint-color": "#6366f1" };
 
 // Or as attribute via JavaScript
-pwaInstall.setAttribute('styles', JSON.stringify({ '--tint-color': '#6366f1' }));
+pwaInstall.setAttribute(
+  "styles",
+  JSON.stringify({ "--tint-color": "#6366f1" }),
+);
 ```
 
 <br>
 
 ## Supported events
+
 - pwa-install-success-event
 - pwa-install-fail-event
 - pwa-install-available-event
@@ -144,39 +149,45 @@ pwaInstall.setAttribute('styles', JSON.stringify({ '--tint-color': '#6366f1' }))
 
 ```html
 <script type="text/javascript">
-  var pwaInstall = document.getElementsByTagName('pwa-install')[0];
+  var pwaInstall = document.getElementsByTagName("pwa-install")[0];
 
-  pwaInstall.addEventListener('pwa-install-success-event', (event) => {console.log(event.detail.message)});
+  pwaInstall.addEventListener("pwa-install-success-event", (event) => {
+    console.log(event.detail.message);
+  });
 </script>
 ```
+
 ⚠️ `success/fail/choice` events is Chromium only, iOS don't have them.
 
 ⚠️ If you see this message in the console:<br>
 `Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.`<br>
-This is **not** a error and **not** a bug. This means that the component successfully intercepted the *beforeinstallprompt* event.
+This is **not** a error and **not** a bug. This means that the component successfully intercepted the _beforeinstallprompt_ event.
 
 <br>
 
 ## Supported properties (readonly)
-- userChoiceResult: *string*
-- isDialogHidden: *boolean*
-- isInstallAvailable: *boolean*
-- isAppleMobilePlatform: *boolean*
-- isAppleDesktopPlatform: *boolean*
-- isApple26Plus: *boolean*
-- isUnderStandaloneMode: *boolean*
-- isRelatedAppsInstalled: *boolean*
+
+- userChoiceResult: _string_
+- isDialogHidden: _boolean_
+- isInstallAvailable: _boolean_
+- isAppleMobilePlatform: _boolean_
+- isAppleDesktopPlatform: _boolean_
+- isApple26Plus: _boolean_
+- isUnderStandaloneMode: _boolean_
+- isRelatedAppsInstalled: _boolean_
 
 ```html
 <script type="text/javascript">
-  var pwaInstall = document.getElementsByTagName('pwa-install')[0];
+  var pwaInstall = document.getElementsByTagName("pwa-install")[0];
 
   console.log(pwaInstall.isUnderStandaloneMode);
 </script>
 ```
+
 <br>
 
 ## Supported methods
+
 - install
 - hideDialog
 - showDialog
@@ -184,24 +195,24 @@ This is **not** a error and **not** a bug. This means that the component success
 
 ```html
 <script type="text/javascript">
-  var pwaInstall = document.getElementsByTagName('pwa-install')[0];
+  var pwaInstall = document.getElementsByTagName("pwa-install")[0];
 
   pwaInstall.install();
 </script>
 ```
 
-*getInstalledRelatedApps is Chromium only, always empty on iOS.*
+_getInstalledRelatedApps is Chromium only, always empty on iOS._
 
 <br>
 
 ## Async mode
 
 If you need to target Chromium browsers but you want to postpone component mounting, you can do it!
-But, need to capture *beforeinstallprompt* manually and pass it to the component's *externalPromptEvent* property(not attribute).
+But, need to capture _beforeinstallprompt_ manually and pass it to the component's _externalPromptEvent_ property(not attribute).
 
 ```javascript
 // capture event asap, better right in index.html script tag
-window.addEventListener('beforeinstallprompt', (e) => {
+window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
   e.stopPropagation();
   e.stopImmediatePropagation();
@@ -213,12 +224,13 @@ window.addEventListener('beforeinstallprompt', (e) => {
 // later render the component on demand and pass event
 document.getElementById("pwa-install").externalPromptEvent = window.promptEvent;
 ```
+
 <br>
 
 ## Supported localization
 
 Translations available:
-*EN*, *RU*, *TR*, *DE*, *ES*, *NL*, *EL*, *FR*, *SR*, *PL*, *ZH-CN*/*ZH-HK*, *IT*, *UK*, *CS*, *NO/NB*, *PT*, *JA*, *SV*, *KO*, *KM*, *DA*, *VI*, *FA*, *HU*, *SK*, *CA-ES*, *HE*
+_EN_, _RU_, _TR_, _DE_, _ES_, _NL_, _EL_, _FR_, _SR_, _PL_, _ZH-CN_/_ZH-HK_, _IT_, _UK_, _CS_, _NO/NB_, _PT_, _JA_, _SV_, _KO_, _KM_, _DA_, _VI_, _FA_, _HU_, _SK_, _CA-ES_, _HE_
 
 Language should change automatically based on browser settings. Please create the pull-request if you want to help with translation to your language. It's an easy process.
 
@@ -227,13 +239,14 @@ Language should change automatically based on browser settings. Please create th
 <br>
 
 ## ROADMAP
-- manual theme
 
+- manual theme
 
 [<img alt="buy me a coffee QR" src="https://github.com/khmyznikov/pwa-install/assets/6115884/5168f0db-2317-4ec2-8362-d828ffa2a8bf" width="200">](https://www.buymeacoffee.com/khmyznikov)
 [<img alt="PayPal QR" src="https://github.com/khmyznikov/pwa-install/assets/6115884/6290b136-d525-4f8e-95fe-4729ea4c6414" width="200">](https://paypal.me/hmyznikov)
 
 ## One-time Backers ❤️
+
 [Patrick Voigt](https://github.com/pvo13)<br>
 [Darren Debono](https://github.com/amigabits)<br>
 [Angelo Fan](https://github.com/angelofan)<br>
@@ -241,3 +254,5 @@ Language should change automatically based on browser settings. Please create th
 [Moddy](https://github.com/moddyio)<br>
 [Pavlo Hromadchuk](https://github.com/hromadchuk)<br>
 Leek Duck
+
+2026-02-12 08:56
